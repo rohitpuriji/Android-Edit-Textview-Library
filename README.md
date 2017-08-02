@@ -18,6 +18,30 @@ Only you have to add jitpack in your root build.gradle :
 	        compile 'com.github.rohitpuriji:EditTextviewLibrary:-SNAPSHOT'
           }
   
+    
+  This library made with java8 so add the jack option inside defaultCondig in your app gradle file :<br/>
+  
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        jackOptions {
+            enabled true
+        }
+    
+  
+  and add compile ad dex options :
+  
+      dexOptions {
+        incremental true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
+    
   ### You can create field in layout file like this :
   
   <?xml version="1.0" encoding="utf-8"?>
