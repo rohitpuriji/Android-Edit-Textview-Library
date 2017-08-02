@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tech.edittexttextviewcreator.MainActivity">
+
+    <com.tech.edittextviewlibrary.TextViewField
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/tvUsername"
+        android:layout_height="wrap_content"/>
+
+
+    <com.tech.edittextviewlibrary.EdittextField
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/etFirstName"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"/>
+
+    <com.tech.edittextviewlibrary.EdittextField
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/etEmail"
+        android:layout_height="wrap_content"/>
+
+
+    <com.tech.edittextviewlibrary.EdittextField
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/etUsername"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"/>
+
+    <com.tech.edittextviewlibrary.EdittextField
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Check"
+        android:padding="10dp"
+        android:id="@+id/btnCheck"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
